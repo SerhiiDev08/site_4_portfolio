@@ -90,6 +90,24 @@ body {
 	background-color: #263238;
 	color: #fff;
 }
+.header__burger {
+	display: none;
+}
+.header__burger span {
+	display: block;
+	width: 30px;
+	height: 3px;
+	background: #39515e;
+	border-radius: 1px;
+	margin-bottom: 4px;
+}
+.header__burger span:last-child {
+	margin-bottom: 0;
+}
+.header__burger span.three {
+	width: 21px;
+	height: 3px;
+}
 .header__content {
 	display: flex;
 	align-items: center;
@@ -100,15 +118,18 @@ body {
 	position: relative;
 }
 .header__content-left::after {
-	content: '';
+	content: "";
 	background-image: url(../img/header_lamp.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	transform: rotate(38.44deg);
 	display: block;
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 90px;
 	z-index: 2;
 	position: absolute;
-	top: 90px;
-	right: 30px;
+	top: 105px;
+	right: 15px;
 }
 .header__content-left h1 {
 	max-width: 386px;
@@ -117,6 +138,9 @@ body {
 	line-height: 80px;
 	color: #000000;
 	margin-bottom: 40px;
+}
+.header__content-left h1 span:nth-child(1) {
+	display: block;
 }
 .header__content-left p {
 	max-width: 550px;
