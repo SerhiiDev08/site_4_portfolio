@@ -39,6 +39,88 @@
 		top: 115px;
 		right: 35px;
 	}
+	.header__inner {
+		margin-bottom: 60px;
+	}
+	/* skills */
+	.skills h2 {
+		font-size: 36px;
+		line-height: 80px;
+		margin-bottom: 50px;
+	}
+	.skills__grid-content h3 {
+		font-size: 22px;
+	}
+	.skills__grid-content p {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.skills__grid-content button {
+		padding: 16px 41px 19px;
+	}
+	.skills__grid {
+		gap: 13px;
+	}
+	.speaking,
+	.writing,
+	.reading {
+		width: 302px;
+	}
+	.writing,
+	.reading {
+		height: 441px;
+	}
+	.speaking .skills__grid-content {
+		width: 250px;
+		padding-left: 25px;
+	}
+	.speaking .skills__grid-img img {
+		height: 260px;
+		margin: 5px auto;
+	}
+	.speaking .skills__grid-content h3 {
+		margin-bottom: -10px;
+	}
+	.speaking .skills__grid-content p {
+		margin-bottom: 35px;
+	}
+	.writing .skills__grid-content,
+	.reading .skills__grid-content {
+		width: 270px;
+		padding-left: 25px;
+	}
+	.writing .skills__grid-img img {
+		width: 205px;
+		margin: 0 0 0 80px;
+	}
+	.writing .skills__grid-content h3 {
+		margin: -28px 0 -10px 0;
+	}
+	.writing .skills__grid-content p,
+	.reading .skills__grid-content p {
+		margin-bottom: 20px;
+	}
+	.reading .skills__grid-img img {
+		width: 243px;
+	}
+	.reading .skills__grid-content h3 {
+		margin: -30px 0 -15px 0;
+	}
+	.listening .skills__grid-content {
+		width: 300px;
+		padding-left: 20px;
+		margin-right: 40px;
+	}
+	.listening .skills__grid-img img {
+		width: 254px;
+		margin: 35px 0 0 0;
+	}
+	.listening .skills__grid-content h3 {
+		margin-bottom: -10px;
+	}
+	.listening {
+		height: 241px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.header__content-left h1 {
@@ -73,6 +155,79 @@
 	}
 	.header__burger {
 		display: block;
+	}
+	.header__inner {
+		margin-bottom: 50px;
+	}
+	/* skills */
+	.skills h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.skills__grid-content h3 {
+		font-size: 20px;
+	}
+	.skills__grid-content p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.skills__grid-content button {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 13px 42px;
+	}
+	.skills__grid {
+		gap: 10px;
+	}
+	.speaking,
+	.writing,
+	.reading {
+		width: 226px;
+	}
+	.speaking .skills__grid-content {
+		width: 200px;
+		padding-left: 15px;
+	}
+	.speaking .skills__grid-img img {
+		height: 210px;
+		margin: 5px auto;
+	}
+	.writing .skills__grid-content,
+	.reading .skills__grid-content {
+		width: 215px;
+		padding-left: 15px;
+	}
+	.writing .skills__grid-img img {
+		width: 200px;
+		margin: 0 0 0 10px;
+	}
+	.reading .skills__grid-img img {
+		width: 215px;
+	}
+	.reading .skills__grid-content h3 {
+		margin: -25px 0 -7px 0;
+	}
+	.listening .skills__grid-content {
+		width: 300px;
+		padding-left: 15px;
+		margin-right: 40px;
+	}
+	.listening .skills__grid-img img {
+		width: 200px;
+		position: absolute;
+		margin: 0;
+		top: 70px;
+		right: 20px;
+	}
+	.listening .skills__grid-content h3 {
+		margin-bottom: -15px;
+	}
+	.listening .skills__grid-content p {
+		margin-bottom: 15px;
+	}
+	.listening {
+		position: relative;
+		height: 210px;
 	}
 }
 @media screen and (max-width: 575px) {
@@ -121,6 +276,72 @@
 	.header__content-left h1 span:nth-child(1) {
 		display: inline-block;
 	}
+	/* .header__inner {
+		margin-bottom: 50px;
+	} */
+	/* skills */
+	.skills__grid-content h3 {
+		font-size: 18px;
+	}
+	.skills__grid-content p {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.skills__grid-content button {
+		font-size: 14px;
+		line-height: 21px;
+		padding: 13px 53px;
+	}
+	.skills__grid {
+		gap: 30px;
+		grid-template-areas:
+			"one two"
+			"three four";
+	}
+	.speaking,
+	.writing,
+	.reading,
+	.listening {
+		width: 240px;
+		height: 534px;
+	}
+	.speaking .skills__grid-content,
+	.writing .skills__grid-content,
+	.reading .skills__grid-content,
+	.listening .skills__grid-content {
+		width: 230px;
+		padding-left: 20px;
+		margin: 0;
+	}
+	.speaking .skills__grid-img img,
+	.writing .skills__grid-img img {
+		height: 185px;
+		margin: 5px auto;
+	}
+	.reading .skills__grid-img img,
+	.listening .skills__grid-img img {
+		width: 200px;
+		position: unset;
+		margin: 15px auto;
+	}
+	.writing .skills__grid-content h3,
+	.reading .skills__grid-content h3,
+	.listening .skills__grid-content h3 {
+		margin-top: 0;
+		margin-bottom: -10px;
+	}
+	.writing .skills__grid-content p {
+		margin-bottom: 125px;
+	}
+	.reading .skills__grid-content p {
+		margin-bottom: 155px;
+	}
+	.listening .skills__grid-content p {
+		margin-bottom: 155px;
+	}
+	.listening {
+		display: block;
+	}
 }
 @media screen and (max-width: 320px) {
 	.wrapper {
@@ -167,6 +388,81 @@
 		right: 35px;
 	}
 	.header__content-left h1 span:nth-child(2) {
+		display: block;
+	}
+	/* skills */
+		.skills h2 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.skills__grid-content h3 {
+		font-size: 18px;
+	}
+	.skills__grid-content p {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.skills__grid-content button {
+		font-size: 14px;
+		line-height: 21px;
+		padding: 13px 43px;
+	}
+	.skills__grid {
+		gap: 20px;
+		grid-template-areas:
+			"one"
+			"two"
+			"three"
+			"four";
+	}
+	.speaking,
+	.writing,
+	.reading,
+	.listening {
+		width: 290px;
+		height: 473px;
+	}
+	.speaking {
+		height: 600px;
+	}
+	.speaking .skills__grid-content,
+	.writing .skills__grid-content,
+	.reading .skills__grid-content,
+	.listening .skills__grid-content {
+		width: 250px;
+		padding-left: 15px;
+		margin: 0;
+	}
+	.speaking .skills__grid-img img,
+	.writing .skills__grid-img img {
+		width: 210px;
+		margin: 25px auto 0;
+	}
+	.reading .skills__grid-img img,
+	.listening .skills__grid-img img {
+		height: 155px;
+		margin: 35px auto 0;
+	}
+	.writing .skills__grid-content h3,
+	.reading .skills__grid-content h3,
+	.listening .skills__grid-content h3,
+	.speaking .skills__grid-content h3 {
+		margin-top: 0;
+		margin-bottom: -15px;
+	}
+	.writing .skills__grid-content p {
+		margin-bottom: 25px;
+	}
+	.reading .skills__grid-content p {
+		margin-bottom: 45px;
+	}
+	.listening .skills__grid-content p {
+		margin-bottom: 45px;
+	}
+	.speaking .skills__grid-content p {
+		margin-bottom: 55px;
+	}
+	.listening {
 		display: block;
 	}
 }
