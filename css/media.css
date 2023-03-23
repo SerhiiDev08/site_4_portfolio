@@ -276,9 +276,6 @@
 	.header__content-left h1 span:nth-child(1) {
 		display: inline-block;
 	}
-	/* .header__inner {
-		margin-bottom: 50px;
-	} */
 	/* skills */
 	.skills__grid-content h3 {
 		font-size: 18px;
@@ -343,7 +340,7 @@
 		display: block;
 	}
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 390px) {
 	.wrapper {
 		padding-top: 35px;
 	}
