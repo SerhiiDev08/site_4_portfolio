@@ -323,22 +323,22 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: relative;
 }
 .aboutus__info {
 	max-width: 635px;
 }
-.aboutus__info h2 {
-	max-width: 635px;
+.aboutus h2 {
 	text-align: unset;
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 25px;
 }
 .aboutus__info p {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
 	color: #8f95a5;
-	margin-bottom: 35px;
+	margin-bottom: 37px;
 }
 .aboutus__statistic {
 	max-width: 620px;
@@ -348,14 +348,6 @@ body {
 }
 .aboutus__statistic-item {
 	text-align: center;
-	transition: 0.2s all;
-}
-.aboutus__statistic-item:hover {
-	scale: 1.02;
-	border: 1px solid #263238;
-	background: #f5f5f5;
-	border-radius: 10px;
-	padding: 0px 15px;
 }
 .aboutus__statistic-item span {
 	font-weight: 600;
@@ -363,6 +355,9 @@ body {
 	line-height: 80px;
 	color: #2a3246;
 }
-.aboutus__img img {
+.aboutus__img {
+	position: absolute;
 	max-width: 500px;
+	right: 10px;
+	bottom: 0;
 }

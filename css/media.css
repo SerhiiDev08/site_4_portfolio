@@ -123,6 +123,34 @@
 	.listening {
 		height: 241px;
 	}
+	/* about */
+	.aboutus__info {
+		max-width: 500px;
+	}
+	.aboutus h2 {
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	.aboutus {
+		padding: 80px 0;
+	}
+	.aboutus__info p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 15px;
+	}
+	.aboutus__img img {
+		max-width: 336px;
+	}
+	.aboutus__img {
+		right: 10px;
+		bottom: 15px;
+	}
+	.aboutus__statistic-item span {
+		font-size: 30px;
+		display: block;
+		margin-bottom: -10px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.header__content-left h1 {
@@ -235,6 +263,30 @@
 		position: relative;
 		height: 210px;
 	}
+	/* about */
+	.aboutus__info {
+		max-width: 370px;
+	}
+	.aboutus h2 {
+		font-size: 30px;
+		margin-bottom: 0;
+	}
+	.aboutus__info p {
+		margin-bottom: 0;
+	}
+	.aboutus {
+		padding: 30px 0;
+	}
+	.aboutus__img img {
+		max-width: 295px;
+	}
+	.aboutus__img {
+		right: 0;
+		bottom: 0;
+	}
+	.aboutus__statistic-item span {
+		font-size: 22px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.wrapper {
@@ -346,6 +398,39 @@
 	}
 	.listening {
 		display: block;
+	}
+	/* about */
+	.aboutus__info {
+		max-width: 510px;
+		order: 1;
+	}
+	.aboutus__inner {
+		flex-direction: column;
+		position: unset;
+	}
+	.aboutus h2 {
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.aboutus__info p {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.aboutus__img img {
+		max-width: 352px;
+	}
+	.aboutus__img {
+		position: unset;
+		margin-bottom: 25px;
+	}
+	.aboutus__statistic-item span {
+		font-size: 24px;
+	}
+	.aboutus__statistic-item {
+		margin: 0 auto;
+		justify-content: unset;
+		flex: 1 0 33.33%;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -467,5 +552,36 @@
 	.listening .skills__grid-content p {
 		height: 130px;
 		margin-bottom: 5px;
+	}
+	/* about */
+	.aboutus__info {
+		max-width: 510px;
+		order: 1;
+	}
+	.aboutus__inner {
+		flex-direction: column;
+		position: unset;
+	}
+	.aboutus h2 {
+		font-size: 24px;
+	}
+	.aboutus__info p {
+		font-size: 13px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.aboutus__img img {
+		max-width: 285px;
+	}
+	.aboutus__img {
+		position: unset;
+		margin-bottom: 25px;
+	}
+	.aboutus__statistic {
+		flex-direction: column;
+	}
+	.aboutus__statistic-item span {
+		margin-bottom: -20px;
 	}
 }
