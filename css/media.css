@@ -151,6 +151,53 @@
 		display: block;
 		margin-bottom: -10px;
 	}
+	/* pricing */
+	.pricing h2 {
+		font-size: 36px;
+	}
+	.pricing__inner {
+		display: grid;
+		gap: 40px;
+	}
+	.pricing__card-item {
+		display: flex;
+		flex-direction: column;
+		max-width: 420px;
+		min-height: 100%;
+	}
+	.pricing__card-item img {
+		height: 222px;
+		margin: 0 0 20px 0;
+	}
+	.pricing__card-item:nth-child(1) img {
+		max-width: 222px;
+	}
+	.pricing__card-item:nth-child(2) img {
+		max-width: 260px;
+	}
+	.pricing__card-item:nth-child(3) img {
+		max-width: 240px;
+	}
+	.pricing__card-item h3 {
+		font-size: 22px;
+		line-height: 34px;
+		margin-bottom: 18px;
+	}
+	.pricing__card-item p {
+		font-size: 16px;
+		line-height: 24px;
+		color: #8f95a5;
+		margin-bottom: 25px;
+	}
+	.pricing__card-item button {
+		width: 215px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.pricing__card-item button span {
+		font-size: 24px;
+		line-height: 36px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.header__content-left h1 {
@@ -286,6 +333,56 @@
 	}
 	.aboutus__statistic-item span {
 		font-size: 22px;
+	}
+	/* pricing */
+	.pricing h2 {
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 60px;
+	}
+	.pricing__inner {
+		gap: 30px;
+	}
+	.pricing__card-item {
+		display: flex;
+		flex-direction: column;
+		max-width: 420px;
+		min-height: 100%;
+	}
+	.pricing__card-item img {
+		height: 197px;
+		margin: 0 0 10px 0;
+	}
+	.pricing__card-item:nth-child(1) img {
+		max-width: 197px;
+	}
+	.pricing__card-item:nth-child(2) img {
+		max-width: 220px;
+	}
+	.pricing__card-item:nth-child(3) img {
+		max-width: 210px;
+	}
+	.pricing__card-item h3 {
+		flex: 1 1 auto;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 18px;
+	}
+	.pricing__card-item p {
+		font-size: 14px;
+		line-height: 21px;
+		color: #8f95a5;
+		margin-bottom: 20px;
+	}
+	.pricing__card-item button {
+		width: 205px;
+		font-size: 16px;
+		line-height: 24px;
+		padding: 7px 25px;
+	}
+	.pricing__card-item button span {
+		font-size: 22px;
+		line-height: 33px;
 	}
 }
 @media screen and (max-width: 575px) {
@@ -430,7 +527,46 @@
 	.aboutus__statistic-item {
 		margin: 0 auto;
 		justify-content: unset;
-		flex: 1 0 33.33%;
+		flex: 1 1 33%;
+	}
+	/* pricing */
+	.pricing h2 {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.pricing__inner {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 50px;
+	}
+	.pricing__card-item {
+		margin: 0 auto;
+		text-align: center;
+		max-width: 390px;
+	}
+	.pricing__card-item img {
+		height: 291px;
+		margin: 0 auto 10px;
+	}
+	.pricing__card-item:nth-child(1) img {
+		max-width: 291px;
+	}
+	.pricing__card-item:nth-child(2) img {
+		max-width: 315px;
+		height: 240px;
+		margin: 0 auto 10px;
+	}
+	.pricing__card-item:nth-child(3) img {
+		max-width: 253px;
+	}
+	.pricing__card-item h3 {
+		margin-bottom: 18px;
+	}
+	.pricing__card-item p {
+		margin-bottom: 30px;
+	}
+	.pricing__card-item button {
+		width: 205px;
+		margin: 0 auto;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -583,5 +719,58 @@
 	}
 	.aboutus__statistic-item span {
 		margin-bottom: -20px;
+	}
+	.aboutus__statistic-item {
+		margin-bottom: -10px;
+	}
+	/* pricing */
+	.pricing h2 {
+		margin-top: 24px;
+		margin-bottom: 40px;
+	}
+	.pricing__inner {
+		gap: 50px;
+	}
+	.pricing__card-item {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		text-align: center;
+		max-width: 350px;
+		min-height: 100%;
+	}
+	.pricing__card-item img {
+		height: 248px;
+	}
+	.pricing__card-item:nth-child(1) img {
+		max-width: 248px;
+	}
+	.pricing__card-item:nth-child(2) img {
+		max-width: 257px;
+		height: 200px;
+	}
+	.pricing__card-item:nth-child(3) img {
+		max-width: 240px;
+	}
+	.pricing__card-item h3 {
+		font-size: 18px;
+		line-height: 20px;
+		margin-bottom: 18px;
+	}
+	.pricing__card-item p {
+		font-size: 13px;
+		line-height: 20px;
+		color: #8f95a5;
+		margin-bottom: 20px;
+	}
+	.pricing__card-item button {
+		width: 170px;
+		font-size: 14px;
+		line-height: 21px;
+		padding: 7px 20px;
+	}
+	.pricing__card-item button span {
+		font-size: 18px;
+		line-height: 27px;
 	}
 }

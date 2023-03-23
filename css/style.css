@@ -419,6 +419,12 @@ body {
 	padding: 7px 25px;
 	transition: 0.2s all;
 	border: none;
+	cursor: pointer;
+}
+.pricing__card-item button:hover {
+	scale: 1.05;
+	background-color: #fff;
+	border: 1px solid #263238;
 }
 .pricing__card-item button span {
 	display: inline-block;
