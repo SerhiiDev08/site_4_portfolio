@@ -437,7 +437,7 @@ body {
 /* contactus section */
 .contactus {
 	padding-top: 287px;
-	margin-bottom: 130px;
+	margin-bottom: -20px;
 }
 .contactus h2 {
 	margin-left: 60px;
@@ -491,4 +491,46 @@ body {
 	scale: 1.05;
 	background-color: #fff;
 	color: #263238;
+}
+/* footer section */
+.footer {
+	padding-bottom: 15px;
+}
+.footer::before {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	max-width: 1338px;
+	height: 1px;
+	background: #c4c4c4;
+	margin-bottom: 40px;
+}
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__logo {
+	max-width: 100%;
+	width: 106px;
+}
+.footer__info .list {
+	list-style-type: disc;
+	color: #8f95a5;
+	width: 635px;
+}
+.footer__info .list li:first-child {
+	list-style-type: none;
+	color: #8f95a5;
+}
+.footer__info a {
+	font-size: 24px;
+	line-height: 36px;
+	color: #8f95a5;
+	text-decoration: none;
+	transition: .2s all;
+}
+.footer__info a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
 }

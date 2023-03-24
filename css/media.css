@@ -201,7 +201,6 @@
 	/* contactus */
 	.contactus {
 		padding-top: 140px;
-		margin-bottom: 130px;
 	}
 	.contactus h2 {
 		font-size: 36px;
@@ -235,6 +234,25 @@
 		font-size: 16px;
 		line-height: 24px;
 		padding: 16px 55px;
+	}
+	/* footer */
+	.footer {
+		margin-bottom: -20px;
+	}
+	.footer::before {
+		max-width: 960px;
+		margin-bottom: 40px;
+	}
+	.footer__logo {
+		max-width: 100%;
+		width: 90px;
+	}
+	.footer__info .list {
+		width: 440px;
+	}
+	.footer__info a {
+		font-size: 16px;
+		line-height: 24px;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -425,7 +443,6 @@
 	/* contactus */
 	.contactus {
 		padding-top: 80px;
-		margin-bottom: 130px;
 	}
 	.contactus h2 {
 		font-size: 30px;
@@ -460,6 +477,27 @@
 		font-size: 13px;
 		line-height: 20px;
 		padding: 15px 40px;
+	}
+	/* footer */
+	.footer {
+		margin-bottom: -20px;
+		padding-top: 40px;
+	}
+	.footer::before {
+		max-width: 710px;
+		margin-bottom: 30px;
+	}
+	.footer__info .list {
+		display: flex;
+		width: 365px;
+	}
+	.footer__info li.list__item::marker {
+		font-size: 12px;
+		text-align: center;
+	}
+	.footer__info a {
+		font-size: 13px;
+		line-height: 20px;
 	}
 }
 @media screen and (max-width: 575px) {
@@ -648,7 +686,6 @@
 	/* contactus */
 	.contactus {
 		padding-top: 80px;
-		margin-bottom: 130px;
 	}
 	.contactus h2 {
 		margin-left: 0;
@@ -687,6 +724,26 @@
 		line-height: 24px;
 		padding: 13px 40px;
 		margin-left: -15px;
+	}
+	/* footer */
+	.footer {
+		margin-bottom: -30px;
+		padding-top: 100px;
+	}
+	.footer::before {
+		max-width: 520px;
+		margin-bottom: 30px;
+	}
+	.footer__info .list {
+		display: flex;
+		width: 280px;
+	}
+	.footer__info li.list__item::marker {
+		font-size: 8px;
+	}
+	.footer__info a {
+		font-size: 10px;
+		line-height: 18px;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -893,10 +950,9 @@
 		font-size: 18px;
 		line-height: 27px;
 	}
-		/* contactus */
+	/* contactus */
 	.contactus {
 		padding-top: 70px;
-		margin-bottom: 130px;
 	}
 	.contactus h2 {
 		font-size: 24px;
@@ -933,5 +989,32 @@
 		line-height: 21px;
 		padding: 17px 0;
 		margin-left: 0;
+	}
+	/* footer */
+	.footer {
+		margin-bottom: -30px;
+		padding-top: 100px;
+	}
+	.footer::before {
+		max-width: 310px;
+		margin-bottom: 30px;
+	}
+	.footer__logo {
+		width: 70px;
+		margin-bottom: 20px;
+	}
+	.footer__inner {
+		flex-direction: column;
+	}
+	.footer__info .list {
+		display: flex;
+		width: 310px;
+	}
+	.footer__info li.list__item::marker {
+		font-size: 8px;
+	}
+	.footer__info a {
+		font-size: 11px;
+		line-height: 16px;
 	}
 }
