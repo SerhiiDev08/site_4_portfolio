@@ -434,3 +434,61 @@ body {
 	line-height: 45px;
 	color: #263238;
 }
+/* contactus section */
+.contactus {
+	padding-top: 287px;
+	margin-bottom: 130px;
+}
+.contactus h2 {
+	margin-left: 60px;
+	margin-bottom: 37px;
+}
+.contactus__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.contactus__image img {
+	max-width: 477px;
+	height: 429px;
+	position: relative;
+	top: -150px;
+	left: -18px;
+}
+.contactus__content {
+	max-width: 775px;
+}
+.contactus__content p {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #8f95a5;
+	margin-bottom: 50px;
+}
+.contactus__content input {
+	display: inline-block;
+	width: 450px;
+	border: 1px solid #8f95a5;
+	border-radius: 10px;
+	padding: 25px 33px;
+	margin-right: 10px;
+}
+.contactus__content input[placeholder] {
+	font-size: 16px;
+	line-height: 24px;
+}
+.contactus__content button {
+	background: #263238;
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	padding: 21px 85px;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+.contactus__content button:hover {
+	scale: 1.05;
+	background-color: #fff;
+	color: #263238;
+}

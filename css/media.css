@@ -198,6 +198,44 @@
 		font-size: 24px;
 		line-height: 36px;
 	}
+	/* contactus */
+	.contactus {
+		padding-top: 140px;
+		margin-bottom: 130px;
+	}
+	.contactus h2 {
+		font-size: 36px;
+		margin-left: 60px;
+		margin-bottom: 15px;
+	}
+	.contactus__image img {
+		max-width: 312px;
+		height: 281px;
+		top: -100px;
+		left: 0;
+	}
+	.contactus__content {
+		max-width: 550px;
+	}
+	.contactus__content p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 35px;
+	}
+	.contactus__content input {
+		width: 323px;
+		padding: 18px 33px;
+		margin-right: 10px;
+	}
+	.contactus__content input[placeholder] {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.contactus__content button {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 16px 55px;
+	}
 }
 @media screen and (max-width: 768px) {
 	.header__content-left h1 {
@@ -384,6 +422,45 @@
 		font-size: 22px;
 		line-height: 33px;
 	}
+	/* contactus */
+	.contactus {
+		padding-top: 80px;
+		margin-bottom: 130px;
+	}
+	.contactus h2 {
+		font-size: 30px;
+		margin-left: -30px;
+		margin-bottom: 0;
+	}
+	.contactus__image img {
+		max-width: 223px;
+		height: 210px;
+		top: -60px;
+		left: 0;
+	}
+	.contactus__content {
+		max-width: 450px;
+	}
+	.contactus__content p {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 25px;
+	}
+	.contactus__content input {
+		width: 283px;
+		padding: 16px 24px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.contactus__content input[placeholder] {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.contactus__content button {
+		font-size: 13px;
+		line-height: 20px;
+		padding: 15px 40px;
+	}
 }
 @media screen and (max-width: 575px) {
 	.wrapper {
@@ -567,6 +644,49 @@
 	.pricing__card-item button {
 		width: 205px;
 		margin: 0 auto;
+	}
+	/* contactus */
+	.contactus {
+		padding-top: 80px;
+		margin-bottom: 130px;
+	}
+	.contactus h2 {
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.contactus__inner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.contactus__image img {
+		position: unset;
+		max-width: 358px;
+		height: 322px;
+		margin: 0 auto 30px;
+	}
+	.contactus__content {
+		max-width: 500px;
+		text-align: center;
+	}
+	.contactus__content p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 45px;
+	}
+	.contactus__content input {
+		width: 340px;
+		padding: 16px 24px;
+		margin-right: 0;
+	}
+	.contactus__content input[placeholder] {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.contactus__content button {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 13px 40px;
+		margin-left: -15px;
 	}
 }
 @media screen and (max-width: 400px) {
@@ -764,7 +884,7 @@
 		margin-bottom: 20px;
 	}
 	.pricing__card-item button {
-		width: 170px;
+		width: 180px;
 		font-size: 14px;
 		line-height: 21px;
 		padding: 7px 20px;
@@ -772,5 +892,46 @@
 	.pricing__card-item button span {
 		font-size: 18px;
 		line-height: 27px;
+	}
+		/* contactus */
+	.contactus {
+		padding-top: 70px;
+		margin-bottom: 130px;
+	}
+	.contactus h2 {
+		font-size: 24px;
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.contactus__image img {
+		max-width: 253px;
+		height: 228px;
+		margin: 0 auto 30px;
+	}
+	.contactus__content {
+		max-width: 350px;
+		text-align: center;
+	}
+	.contactus__content p {
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 45px;
+	}
+	.contactus__content input {
+		width: 100%;
+		padding: 16px 24px;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.contactus__content input[placeholder] {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.contactus__content button {
+		width: 100%;
+		font-size: 14px;
+		line-height: 21px;
+		padding: 17px 0;
+		margin-left: 0;
 	}
 }
