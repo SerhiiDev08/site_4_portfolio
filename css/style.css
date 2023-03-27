@@ -98,8 +98,11 @@ body {
 	color: #fff;
 }
 .header__burger {
-	/* display: none; */
+	display: none;
 	cursor: pointer;
+}
+.header__burger:hover {
+	opacity: 0.7;
 }
 .header__burger span {
 	display: block;
@@ -548,7 +551,7 @@ body {
 	padding: 40px 25px 0 40px;
 	z-index: 20;
 	background-color: #fff;
-	transition: .3s;
+	transition: 0.3s;
 }
 .active .burger__menu {
 	left: 0;
@@ -620,7 +623,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	z-index: 10;
-	transition: .5s all;
+	transition: 0.5s all;
 }
 .active .burger__menu-overlay {
 	display: block;
