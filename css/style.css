@@ -58,7 +58,7 @@ body {
 	width: 100%;
 }
 .list {
-	width: 520px;
+	width: 540px;
 	display: flex;
 	justify-content: space-between;
 	list-style: none;
@@ -70,11 +70,13 @@ body {
 	line-height: 30px;
 	color: #263238;
 	transition: 0.2s all;
+	border: 1px solid transparent;
+	padding: 10px 10px;
 }
 .menu__item a:hover {
 	opacity: 0.8;
 	border: 1px solid #263238;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	border-radius: 5px;
 }
 .header__btn {
@@ -420,6 +422,7 @@ body {
 	transition: 0.2s all;
 	border: none;
 	cursor: pointer;
+	border: 1px solid transparent;
 }
 .pricing__card-item button:hover {
 	scale: 1.05;
