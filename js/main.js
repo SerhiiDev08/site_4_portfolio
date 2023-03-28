@@ -12,22 +12,21 @@ burger.addEventListener('click', () => {
 		document.body.style.overflow = 'hidden';
 	}
 })
-
-btnClose.addEventListener('click', () => {
+function closeMenu() {
 	menu.classList.remove('active')
 	document.body.style.overflow = 'scroll';
+}
+btnClose.addEventListener('click', () => {
+	closeMenu()
 })
 overlay.addEventListener('click', () => {
-	menu.classList.remove('active')
-	document.body.style.overflow = 'scroll';
+	closeMenu()
 })
 for (let link of links) {
 	link.addEventListener('click', () => {
-		menu.classList.remove('active')
-		document.body.style.overflow = 'scroll';
+		closeMenu()
 	})
 }
 button.addEventListener('click', () => {
-	menu.classList.remove('active')
-	document.body.style.overflow = 'scroll';
+	closeMenu()
 })
